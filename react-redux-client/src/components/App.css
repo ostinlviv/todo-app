@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.centerAlign{text-align: center;vertical-align: middle;}
+.booksTable{width:0 !important;margin:auto}
+.booksTable>tbody>tr>td{
+  border-top: 0px !important;
+  border-bottom: 1px solid #ddd;
+}
+.todoTitle{
+  width:70% !important
+}
+.todo{
+  margin-left: 10px;
+  color: black;
+}
+.modal-body{
+  display: inline-block;
+  width: 100%;
+}
+.submitBtn{
+  margin-right: 10px;
+}
+.norecordsBox{
+  width:80%;
+  height:100px;
+  background-color: #ffcdd2;
+  border-radius: 4px;
+  margin:auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.norecordsTitle{
+  margin:0;
+}
+
+.customNav {
+  background-color: #d32115 !important;
+  border-radius: 0 !important;
+  border: 0 !important;
+  margin-bottom:  0 !important;
+}
+.customNav a{
+  background-color: #d32115 !important;
+  color: #fff !important;
+}
+.backBtn{
+  border-radius: 50%;
+  border: 0;
+  font-size: 2em;
+  color: #fff;
+  background-color: #706d6c;
+  width: 50px;
+  height: 50px;
+}
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100px;  
+  background-color: #f44236;
+}
+.titleText{
+  font-size: 1.3em;
+  margin:0;
+  color: #fff;
+}
+.addBtn{
+  background-color: #6e6e6e !important;
+  color: #fff !important;
+}
